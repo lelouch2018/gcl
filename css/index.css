@@ -1,0 +1,1166 @@
+body{
+    background-color: #fff;
+    color: #666!important;
+}
+
+.cur_color{
+    color: #11666;
+}
+.cur_color img {
+    height: 20px;
+    width: 20px;
+}
+
+.width{
+    min-width: 1200px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    width: 60%;
+}
+
+/*header*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: auto;
+    z-index: 999999990;
+    background-color: #fafaff;
+}
+
+.header .header_C{
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    font-size: 18px;
+    color: #7f8d9a;
+}
+
+.header .logo{
+    width: 130px;
+    height: 80px;
+    position: relative;
+}
+
+.header .logo img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+}
+
+.header ul.L{
+    overflow: hidden;
+    width: 66%;
+
+}
+
+.header ul.L li{
+    float: left;
+    margin-left: 55px;
+}
+
+.header ul.L li a{
+    color: #7a7a87;
+    height: 80px;
+    display: block;
+    border-bottom: 2px solid #b3b1b9;
+}
+
+.header ul.L li.cur a{
+    color: #73e6eb;
+    border-bottom: 2px solid #73e6eb;
+}
+
+
+.header .header_C .selects i{
+    padding-left: 15px;
+    position: relative;
+    color: #73e6eb;
+    top: 3px;
+}
+
+.header .header_C .sign{
+    display: inline-block;
+    height: 32px;
+    width: 90px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #11666;
+    font-size: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.page1{
+    width: 100%;
+    background:url("../images/logo-white.gif") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header ul.L li.cur a{
+    color: #11666;
+}
+
+.news{
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+.sample{
+    height: auto;
+    /*	overflow: hidden;
+    */	padding-top: 10%;
+    color: #666;
+    font-size: 14px;
+    position: relative;
+    z-index: 7;
+}
+
+.fonts{
+    width: 50%;
+}
+
+.analysis{
+    width: 40%;
+}
+.analysis_img{
+    width: 50%;
+}
+
+.imgs{
+    width: 45%;
+}
+
+.fonts .title{
+    width: 100%;
+    height: auto;
+    color: #666;
+    padding: 2% 0;
+    font-size: 36px;
+}
+
+.fonts .infor{
+    width: 100%;
+    overflow: hidden;
+    line-height: 26px;
+}
+
+.clearfix{
+    overflow: hidden;
+}
+.clearfixScreen{
+    display: none;
+}
+
+.opacity_btn{
+    height: auto;
+    background: rgba(45,48,57,0.6); 
+    padding: 5% 0;
+    position: relative;
+    position: relative;
+    top: -60px;
+}
+
+.opacity_btn button{
+    background-color: #915aff;
+    color: #666;
+    border-radius: 20px;
+    padding: 1.45% 2%;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.fonts ol{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 4%;
+    height: auto;
+}
+
+
+.fonts ol li{
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.fonts ol li span{
+    float: left;
+    line-height: 20px;
+    margin-top:5px;
+    font-size: 11px;
+}
+
+.fonts ol li:nth-child(2n){
+    margin-left: 4%;
+}
+
+.fonts ol li img{
+    float: left;
+    margin-right: 2%;
+    width: 39px;
+    height: 39px;
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.show_img{
+    width: 100%;
+}
+
+.technical_features .tit,.Team .tit,.Partners .tit,.titq{
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+}
+
+.titq{
+
+}
+
+.technical_features  .font{
+    width: 500px;
+    text-align: center;
+    margin:1% auto 3%;
+    line-height: 25px;
+}
+
+.technical_features ul{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.technical_features ul li{
+    width: 25%;
+    float: left;
+    /*text-align: center;*/
+}
+
+.technical_features ul li img{
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin:0 auto 3%;
+
+}
+
+.technical_features ul li p{
+    margin: auto;
+    width: 200px;
+    line-height: 22px;
+}
+
+.six{
+    width: 60%;
+}
+
+.there{
+    width: 33%;
+}
+
+.Roadmap .contain{
+    overflow: hidden;
+}
+
+.Roadmap .contain .scroll{
+    width: 60%;
+    height: 500px;
+    box-shadow:1px 0px 6px 1px #116667d;
+    margin: auto;
+    padding-top: 2%;
+    border:1px solid #11666;
+    border-bottom: none;
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden;
+    overflow: scroll;
+}
+
+/*.Roadmap .contain .scroll ul{
+    width: 110%;
+    margin: auto;
+    height:100%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}*/
+
+.Roadmap .contain .scroll ul li{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    color: #7f8d9a;
+}
+
+.Roadmap .contain .scroll ul li span,.Roadmap .contain .scroll ul li p{
+    display: block;
+    height: auto;
+    line-height: 30px;
+    width: 70%;
+    float: left;
+    padding: 15px 0;
+}
+
+.Roadmap .contain .scroll ul li span{
+    border-right:1px solid #47dde6;
+    padding-right: 10%;
+    position: relative;
+    display: block;
+    height: auto;
+    left: 19px;
+    width: 50px;
+    float: left;
+}
+
+.Roadmap .contain .scroll ul li p{
+    background: url("../images/roadlogo1.png") no-repeat left 14px;
+    -webkit-background-size: 38px;
+    background-size: 38px;
+    padding-left: 10%;
+}
+
+.Roadmap .contain .scroll ul li:nth-child(3) p{
+    background: url("../images/roadlogo2.png") no-repeat left 14px;
+    -webkit-background-size: 38px;
+    background-size: 38px;
+}
+
+.contain{
+    position: relative;
+}
+
+.Team ol{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-top: 8%;
+}
+
+.Team ol li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: auto;
+    margin-bottom: 3%;
+
+}
+
+
+
+
+.Team .border{
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+}
+
+.Team .border img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Team h4{
+    font-size:22px;
+    font-weight: normal;
+    margin: 3% auto;
+}
+
+.Team .job{
+    height: 50px;
+    line-height: 25px;
+    display: block;
+}
+
+.Team .small_cir{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 2% 2%  3% 0; 
+    cursor: pointer;
+}
+
+.Team .more,.Partners ul li a{
+    color: #915aff;
+    width: 90px;
+    height: 25px;
+    display: block;
+    border-radius: 20px;
+    border:1px solid #915aff;
+    margin:auto;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Team ul {
+
+}
+
+.Partners ul{
+    overflow: hidden;
+    height: auto;
+    padding-top: 4%;
+}
+
+.Partners ul li{
+    float: left;
+    width: 33.33%;
+    height: auto;
+    text-align: center;
+}
+
+.Partners ul li img{
+    width: 90px;
+    height: 90px;
+    margin-right: 3%;
+    border-radius: 50%;
+}
+
+.Partners ul li h4{
+    font-weight: normal;
+    font-size: 18px;
+    padding: 2% 0;
+}
+
+.Partners ul li .job{
+    color: #7f8d9a;
+    padding: 2% 0 4% 0;
+    font-size: 12px;
+    display: block;
+}
+
+.Partners ul li a
+{   
+    font-size: 12px;
+    color: #915aff;
+    margin: 0;
+}
+
+.Partners ul li .c{
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+
+.footer{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding: 4% 0;
+    background-color: #7d8d9a;
+    color: #fff!important;
+    margin-top: 5%;
+}
+
+.sap {
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+    height: auto;
+}
+
+.sap:nth-child(2){
+    text-align: center;
+}
+
+.sap:nth-child(3){
+    text-align: right;
+}
+
+.sap ul{
+    width: 60%;
+    overflow: hidden;
+    height: auto;
+    margin-left: 20%
+}
+
+.sap  ul li{
+    width: 20%;
+    text-align: left;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.sap ul li img{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
+.sap:nth-child(2) img{
+    width: 200px;
+}
+
+.year{
+    color: #915aff;
+}
+
+.right_icon{
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+}
+
+.right_icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.langluge{
+    position: fixed;
+    background: rgba(255,255,255,0.3);
+    width: 115px;
+    display: none;
+}
+
+.langluge ul li{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #cfd5da;
+    cursor: pointer;
+}
+.langluge ul li span{
+    color: #fff;
+    padding-right: 20px;
+}
+
+.langluge ul li:nth-child(2n) span{
+    color: #915aff;
+}
+
+.langluge ul li:nth-child(3n) span{
+    color: #0b666;
+}
+
+.langluge ul li:nth-child(4n) span{
+    color: #02db8f;
+}
+
+.Team ul {
+    width: 500px;
+    height: auto;
+    margin:3% auto;
+}
+
+.Team ul li{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #7f8d9a;
+}
+
+.Team ul li .name{
+    font-size: 22px;
+    color: #fff;
+}
+
+.Team ul li .job{
+    border-bottom: 2px solid #11666;
+    padding: 1% 0 3% 0;
+}
+
+.Team ul li .main{
+    margin-top: 3%;
+    line-height: 23px;
+    height: 230px;
+    overflow: auto;
+}
+
+.Team ul li .blank{
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    height: 93px;
+    width: 100%;
+    background: rgba(45,48,57,0.6);
+}
+
+.Team ul li{
+    display: none;
+}
+
+.Team ul li.ul_cur{
+    display: block;
+}
+
+.moble{
+    display: none;
+}
+
+.header{
+    display: block;
+}
+
+
+.scroll::-webkit-scrollbar {
+    width: 10px;     
+    height: 20px;
+}
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 10px;
+    box-shadow: 1px 0px 6px 1px #116667d;
+    background-color: #11666;
+}
+
+.posimg{
+    position: absolute;
+    top: -1%;
+    width: 20%;
+    height: auto;
+    right: 0;
+    z-index:222;
+}
+
+.limg{
+    left: 0;
+}
+
+
+
+.commonlogin{
+    width: 450px;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    margin-left: -225px;
+    top: 15%;
+    z-index: 88888;
+
+}
+
+.commondiv{
+    background: #F7F7F7;
+}
+.box{
+    /*background: #F7F7F7;*/
+    padding-bottom: 50px;
+}
+.commonlogin ul{
+    overflow: hidden;
+    width: 100%;
+    background: url("../images/logo-top.png") ;
+   
+    height: 55px;
+    background-size:  100% 100%;
+}
+
+.commonlogin ul li{
+
+    float: left;
+    width: 50%;
+    /*    background: #343e59;*/
+    text-align: center;
+    line-height: 50px;
+    height: 55px;
+}
+.commonlogin ul li a{
+    color: #fff;
+    height: 50px;
+}
+.login .dl_div{
+    margin-left: 25%;
+    height: 5px;
+    width: 40%;
+    margin: auto;
+    background-image: url('../images/login_bottom_bg.png');
+    background-size:100% 100%;
+}
+.login .zc_div{
+    margin-left: 30%;
+    height: 5px;
+    width: 40%;
+    margin: auto;
+    background-image: url('../images/login_bottom.png');
+    background-size:100% 100%
+}
+.zhuce .dl_div{
+    margin-left: 25%;
+    height: 5px;
+    width: 40%;
+    margin: auto;
+    background-image: url('../images/login_bottom.png');
+    background-size:100% 100%;
+}
+.zhuce .zc_div{
+    margin-left: 30%;
+    height: 5px;
+    width: 40%;
+    margin: auto;
+    background-image: url('../images/login_bottom_bg.png');
+    background-size:100% 100%
+}
+.bg_div{
+    height: 5px;
+    width: 81%;
+    margin: auto;
+    background-image: url('../images/login_input_bottom.png');
+    background-size:100% 100%
+}
+.commonlogin ul li a{
+    color: #fff;
+}
+
+
+.commonlogin ul li.cur_a{
+   /* background: url("../images/logo-top.png") repeat-x;*/
+
+}
+
+.commonlogin input[type="text"],.commonlogin input[type="password"]{
+    width: 80%;
+    height: auto;
+    padding: 2% 0;
+    border:none;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    display: block;
+    margin:3% auto 0;
+    color: #798aaf;
+    padding-left: 3%;
+    border:1px solid #F7F7F7;
+}
+.commonlogin p{
+    width: 80%;
+    height: auto;
+    padding: 2% 0;
+    border:none;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    display: block;
+    margin:0
+     auto 0;
+    color: #798aaf;
+    padding-left: 3%;
+    border:1px solid #F7F7F7;
+    font-size: 18px;
+}
+
+.commonlogin .agree{
+    width: 83%;
+    margin:4% auto 0;
+    cursor: pointer;
+    height: 50px;
+}
+.commonlogin .agree a{
+    color: #808080;
+    text-decoration: underline ;
+}
+
+.commonlogin .agree .agreeinput{
+    height: 30px;
+    width: 10%;
+    float: left;
+    padding-top:20px;
+}
+.agree_condition{
+    width: 90%;
+    height: 50px;
+}
+.condition_box{
+    width: 20%;
+    position: fixed;
+    top: 55%;
+    height: 500px;
+    right: 20%;
+    margin:-250px 0 0 -450px;
+    background-color: #fff;
+    z-index: 99999;
+    border-radius: 10px;
+    overflow-y: scroll;
+    opacity: 0.9;
+}
+.condition_box .right{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    line-height: 24px;
+}
+.condition_box .gb{
+    width: 100%;
+    background: url("../images/logo-top.png") repeat-x;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.condition_box .gb span{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+.btns{
+    width: 150px;
+    height: 45px;
+    background: url("../images/login_button.png") repeat-x;
+    border:none;
+    color: #fff;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 4%;
+}
+
+.commonlogin input:focus{
+    border:1px solid #5d6dd1;
+}
+
+.dl{
+    display: none;
+}
+
+.ceng{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+.close{
+    display: block;
+    width: 20px;
+    top: 50%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.padding{
+    padding-top: 4%;
+}
+
+.videos{
+    position: fixed;
+    width: 450px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin:-125px 0 0 -225px;
+    z-index: 999;
+    overflow: hidden;
+
+}
+
+.videos video{
+    width: 100%;
+    height: auto;
+}
+
+.cover_video{
+    width: 450px;
+    height: 270px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.videos .close_video{
+    display: block;
+    cursor: pointer;
+    float: right;
+    margin:0% auto 5px;
+}
+
+.video{
+    display: none;
+}
+
+.top{
+    position: fixed;
+    display: none;
+    bottom: 15%;
+    right: 4%;
+    width: 30px;
+    height: auto;
+    z-index: 88888888;
+    cursor: pointer;
+}
+
+
+
+.he{
+    height: 2000px;
+    background: none;
+    position: relative;
+}
+
+.ceng{
+    overflow: auto;
+}
+
+.opacity_btn{
+    display: none;
+}
+
+.technical_features {
+    background: url("../images/background.png") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.linka{
+    width: 120px;
+    height: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+
+.sample2{
+    /*    background: url("../images/cog.png") no-repeat left 90%;
+        -webkit-background-size: 43%;
+        background-size: 43%;*/
+}
+
+.sample3{
+    /*    background: url("../images/one-logo.png") no-repeat right 80%;
+        -webkit-background-size: 33%;
+        background-size: 33%;*/
+}
+
+.blank{
+    display: none;
+}
+
+.tits{
+    color: #333;
+    font-size: 20px;
+    padding-top: 4%;
+}
+
+.header .header_C .sign{
+    display: inline-block;
+    height: 32px;
+    width: 90px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #11ffff;
+    font-size: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: #11ffff;
+}
+
+.technical_features{
+    padding-top: 16%;
+    margin-top: 3%;
+}
+
+.left_img{
+    /*    position: absolute;*/
+    /*    padding-top: 5%;*/
+    left: 0;
+    width: 100%;
+}
+.sample1{
+    z-index: 5;
+    position: relative;
+}
+.sample1 .left_img{
+    position: absolute;
+    width: 50%;
+    float: left;
+    top:-25%;
+}
+
+.news{
+    background-color: #fff;
+    position: fixed;
+    min-height: 500px;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    z-index: 999;
+    display: none;
+}
+
+.news ol{
+    margin:auto;
+    height: 90%;
+    width: 50%;
+}
+
+.news ol li{
+    padding: 7% 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.news ol li .set_img{
+    float: left;
+    width:236px;
+    height: auto;
+    display: block;
+}
+
+.new_div{
+    float: right;
+    width: 400px;
+}
+
+.new_div .title{
+    font-size: 20px;
+    color: #333;
+}
+
+.new_div .lr{
+    font-size: 16px;
+    color: #7f8d9a;
+    line-height: 28px;
+    height: 56px;
+    overflow: hidden;
+}
+
+.cz{
+    overflow: hidden;
+}
+
+.cz span{
+    margin-left: auto;
+    float: right;
+    font-size: 12px;
+    color: #7f8d9a;
+}
+
+.cz a{
+    float: left;
+    color: #915aff;
+}
+
+.wza{
+    width: 100%;
+    height: auto;
+    color: #7f8d9a;
+    line-height: 24px;
+    padding-top: 3%;
+}
+
+.team_box{
+    width: 900px;
+    position: fixed;
+    top: 55%;
+    height: 500px;
+    left: 50%;
+    margin:-250px 0 0 -450px;
+    background-color: #fff;
+    z-index: 5555;
+    border-radius: 10px;
+}
+
+.team_box .left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    height: auto;
+}
+
+.information{
+    overflow: hidden;
+    color: #7f8d9a;
+    width: 90%;
+    margin:3% auto;
+}
+
+.information .logos{
+    width:150px;
+    height: auto;
+    display: block;
+    margin:auto;
+}
+
+.information .headers{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin:8% auto;
+}
+.gb{
+    position: relative;
+    height: 40px;
+}
+.guanbi{
+    width: 25px;
+    height: auto;
+    position: absolute;
+    right: 1%;
+    top: 27%;
+    cursor: pointer;
+}
+
+.information .name{
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+.information .s1{
+    font-size: 11px;
+    padding-bottom: 2%;
+}
+
+.imgss{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.imgss img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.right{
+    float: right;
+    width: 70%;
+    line-height: 24px;
+}
+
+.technical_features  .width{
+    position: relative;
+    top: -140px
+}
+.code_span{
+    width: 150px;
+    height: 45px;
+    background: url("../images/login_button.png") repeat-x;
+    border:none;
+    color: #fff;
+    margin: auto;
+    float:right;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: -14%;
+    margin-right: 10%;
+}
+.outolwidth{
+    width: 120%
+}
+.forgetpassword ul li{
+    width: 40%;
+    margin-left: 30%;
+}
+.fp_li img{
+    height: 80%;
+    width: 100%;
+    margin-top: 5%
+}

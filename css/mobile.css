@@ -1,0 +1,342 @@
+.width{
+    width: 90%;
+}
+
+.header{
+    display: none;
+}
+
+.fonts .title{
+   font-size: 1.5em;
+}
+.fonts,.imgs{
+    width: 100%;
+    float: none;
+}
+
+.fonts ol li{
+    width: 100%;
+    float: none;
+    /*height: auto;*/
+    margin-bottom: 6%;
+}
+
+.fonts ol li:nth-child(2n){
+    margin-left: 0;
+}
+
+.show_img{
+    width: 100%;
+    max-height: 1000px!important;
+
+}
+
+.technical_features .tit, .Team .tit, .Partners .tit, .titq{
+    font-size: 0.8rem;
+}
+
+.technical_features .font{
+    width: 80%;
+}
+
+.technical_features ul li{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.technical_features ul li img{
+    width: 80%;
+    height: auto;
+}
+
+.technical_features .font{
+    margin: 2% auto 5% ;
+}
+
+.technical_features ul li p{
+    width: 90%;
+}
+
+.Roadmap .contain .scroll{
+    width: 97%;
+    height: 9rem;
+}
+
+.Roadmap .contain .scroll ul li p{
+    width:39%;
+    background-size: 30px;
+    padding-left: 23%;
+    width: 39%;
+}
+
+.Roadmap .contain .scroll ul li span{
+    padding-right: 10%;
+    left: 5%;
+    width: 1.4rem;
+}
+
+.titq{
+    margin-bottom:5%;
+}
+
+.Team ol li{
+    width: 100%;
+}
+
+.Team .border img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.Team ul{
+    width: 90%;
+}
+
+.Team ol li .border{
+    width: 3rem;
+
+}
+
+.Partners ul li{
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.sap{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.sap ul li{
+    text-align: center;
+
+}
+
+.sap:nth-child(3){
+    text-align: center;
+}
+
+.moble{
+    display: block;
+}
+
+.header{
+    display: none;
+}
+
+.nav{
+    width: 90%;
+    padding: 0 5%;
+    height: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #000;
+}
+
+.nav .logo img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+}
+
+.nav .logo {
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    width: 2rem;
+}
+
+.nav .R{
+    line-height: 1rem;
+    position: relative;
+    width: 70%;
+    text-align: right;
+}
+
+.nav .R a{
+    padding: 0.06rem 0.2rem;
+    border: 1px solid #11ffff;
+    border-radius: 20px;
+    font-size: 12px;
+    margin: 0 5%;
+    color: #11ffff;
+}
+
+.meau{
+    width: 0.6rem;
+    height: auto;
+    position: relative;
+    top: 0.15rem;
+}
+
+.m_nav,.m_langluge{
+    width: 100%;
+    position: fixed;
+    top: 1rem;
+    background-color: #2d3039bd;
+    left: 0;
+    display: none;
+    height: 100%;
+    z-index: 99999;
+}
+
+.m_nav li,.m_langluge li{
+    height: auto;
+    padding: 4% 0;
+    text-align: center;
+    color: #fff;
+}
+
+.m_nav li a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.m_langluge{
+    display: none;
+}
+
+.m_langluge ul li span{
+    color: #fff;
+    padding-right: 20px;
+}
+
+.m_langluge ul li:nth-child(2n) span{
+    color: #915aff;
+}
+
+.m_langluge ul li:nth-child(3n) span{
+    color: #0bffff;
+}
+
+.m_langluge ul li:nth-child(4n) span{
+    color: #02db8f;
+}
+
+.cover_video{
+    width: 100%;
+    height: auto;
+}
+.commonlogin,.videos{
+    width: 80%;
+    left: 10%;
+    margin-left: 0;
+}
+
+.btns{
+    width: 2.5rem;
+    height: 0.7rem;
+}
+
+.width{
+    max-width:90%;
+    min-width: 90%;
+    
+}
+
+.sample3,.sample1,.sample2{
+    -webkit-background-size: 90%!important;
+    background-size: 90%!important;
+}
+
+.technical_features{
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.news ol li .set_img{
+    width: 100%;
+    float: none;
+}
+
+.news ol{
+    width: 90%;
+}
+
+.news ol li .set_img{
+    width:100%;
+    height: auto;
+    margin-bottom: 3%;
+    display: block;
+}
+
+.new_div{
+    width: 100%;
+}
+
+.news{
+    top:1rem;
+}
+
+.sample2{
+    background-position:50%;
+}
+
+.Roadmap .contain .scroll ul li span, .Roadmap .contain .scroll ul li p{
+    line-height: 25px;
+}
+
+.team_box{
+    width: 90%;
+    left: 5%;
+    margin:auto;
+    top: 5%;
+    height: 90%;
+    overflow: scroll;
+}
+
+.team_box .left{
+    width: 100%;
+    float: none;
+}
+
+.right{
+    width: 100%;
+    float: none;
+    margin:3% auto;
+}
+
+.information .logos{
+    width:3rem;
+}
+
+.information .headers{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.imgss img{
+    height: 0.6rem;
+    width: 0.6rem;
+}
+
+.technical_features  .width{
+    position: relative;
+    top: 0;
+}
+.condition_box{
+    right:2%
+}
+.agree_condition{
+    width: 90%;
+    height: 50px;
+    font-size: 9px;
+}
+.code_span{
+    height: 35px;
+    width: 120px;
+}
+.condition_box{
+    width: 90%
+}
+.intorduction .linka{
+    display: none;
+}
+.sample1 .left_img{
+    width: 100%;
+    position:initial;
+}
